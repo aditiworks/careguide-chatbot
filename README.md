@@ -57,3 +57,4 @@ Checked October 26, 2026. Review these periodically; the app does not automatica
 - NHS, Dehydration: https://www.nhs.uk/conditions/dehydration/
 - CDC, Stroke signs: https://www.cdc.gov/stroke/signs-symptoms/index.html
 - American Heart Association, Warning signs: https://www.heart.org/en/about-us/heart-attack-and-stroke-symptoms
+"# careguide-chatbot" 
