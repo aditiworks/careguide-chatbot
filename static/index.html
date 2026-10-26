@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>CareGuide · Medical information</title><link rel="stylesheet" href="/style.css"><script src="/script.js" defer></script></head>
+<body><main>
+<header><span class="brand">✚ CareGuide</span><span class="badge">LOCAL DEMO</span></header>
+<section class="intro"><p class="eyebrow">INFORMATION FOR YOUR NEXT STEP</p><h1>A place to start.<br>A clinician for the answers.</h1><p>Explore a few general health topics and prepare for a conversation with your care team.</p></section>
+<aside class="warning"><strong>Need urgent help?</strong> Call your local emergency number for severe or sudden symptoms. This chatbot cannot detect every emergency, diagnose illness, or provide medication advice.</aside>
+<section class="chat" aria-label="Medical information chatbot"><div class="chat-heading"><h2>Ask CareGuide</h2><button id="clear" type="button">Clear chat</button></div>
+<p class="privacy">No account or API key. Messages stay in this tab and the local Python process; the app does not save them. Avoid personal details. Each message is evaluated independently.</p>
+<div id="messages" role="log" aria-live="polite" aria-relevant="additions"><article class="message assistant"><span class="label">CAREGUIDE</span><p>Hello. I can share adult cold, fever and hydration information, or help you prepare for an appointment.</p></article></div>
+<div class="suggestions"><button type="button" data-prompt="General adult cold information">Colds</button><button type="button" data-prompt="General adult fever information">Fever</button><button type="button" data-prompt="What is dehydration?">Hydration</button><button type="button" data-prompt="Prepare for an appointment">Appointment prep</button></div>
+<form id="chat-form"><label for="message">Your question</label><div class="compose"><textarea id="message" name="message" maxlength="2000" rows="2" required placeholder="Ask a general health question…"></textarea><button id="send" type="submit">Send ↗</button></div><span class="hint">Up to 2,000 characters. Enter to send; Shift+Enter for a new line.</span></form>
+<p id="status" role="status"></p></section>
+<footer>Educational prototype · Predefined answers, no generative AI · Not validated for clinical use<br>Source links open external websites. Content checked October 26, 2026.</footer>
+</main></body></html>
